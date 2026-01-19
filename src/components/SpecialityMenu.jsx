@@ -1,10 +1,12 @@
 import React from 'react'
 import { specialityData } from '../assets/assets'
 import { Link } from 'react-router-dom'
+import { motion } from 'framer-motion'
 
 const SpecialityMenu = () => {
     return (
-        <div id='speciality' className='flex flex-col items-center gap-4 py-16 text-[#ffffff]'>
+        <motion.div
+            id='speciality' className='flex flex-col items-center gap-4 py-16 text-[#ffffff]'>
             <h1 className='text-3xl font-medium'>Find by Category</h1>
             <p className='sm:w-1/3 text-center text-sm'>From Monks to Psychiatrists, choose according to your needs and likes.</p>
             <div className='flex sm:justify-center gap-4 pt-5 w-full overflow-scroll text-white md:gap-6'>
@@ -15,7 +17,7 @@ const SpecialityMenu = () => {
                     </Link>
                 ))}
             </div>
-        </div>
+        </motion.div>
     )
 }
 

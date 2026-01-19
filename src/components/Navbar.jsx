@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { assets } from '../assets/assets'
 import { NavLink, useNavigate, useLocation } from 'react-router-dom'
 import { AppContext } from '../context/AppContext'
+import {motion} from "framer-motion"
 
 const Navbar = () => {
   const navigate = useNavigate()
@@ -18,10 +19,23 @@ const Navbar = () => {
   return (
     <div className='bg-[##1E3A8A] flex items-center justify-between text-sm gap-10 pb-0 border-b border-b-gray-400 md:px-20 max-sm:px-2'>
       <div className="w-20 h-20 overflow-hidden flex-1">
-        <p className='max-sm:text-[35px] font-semibold text-4xl lg:text-5xl pt-4'>Ment<span className='text-amber-300'>Care</span></p>
+        <motion.p
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0, x: -50 },
+            visible: { opacity: 1, x: 0 }
+          }}
+          transition={{ duration: 2 }}
+          className='max-sm:text-[35px] font-semibold text-4xl lg:text-5xl pt-4'>Ment<span className='text-amber-300'>Care</span></motion.p>
       </div>
 
-      <ul className='hidden md:flex items-start gap-5 font-medium md:text-[18px]'>
+      <motion.ul
+            initial={{opacity:0,y:-50}}
+            whileInView={{opacity:1,y:0}}
+            transition={{duration:0.6,ease:"easeOut"}}
+            viewport={{once:true}}
+       className='hidden md:flex items-start gap-5 font-medium md:text-[18px]'>
         <li className='pb-0.5 px-2'>
           <NavLink to='/' className={({ isActive }) => isActive ? 'border-b-2 border-amber-300 hover:text-amber-300' : 'hover:text-amber-300'}>Home</NavLink>
         </li>
@@ -34,7 +48,7 @@ const Navbar = () => {
         <li className='pb-0.5'>
           <NavLink to='/contact' className={({ isActive }) => isActive ? 'border-b-2 border-amber-300 hover:text-amber-300' : 'hover:text-amber-300'}>Contact</NavLink>
         </li>
-      </ul>
+      </motion.ul>
 
       <div className='flex items-center gap-4'>
 
@@ -69,7 +83,7 @@ const Navbar = () => {
           </button>
         )}
 
-        <img onClick={() => setShowMenu(true)} className='w-6 md:hidden' src={assets.menu_icon} alt="" />
+        <img onClick={() => setShowMenu(true)} className='w-8 bg-white p-2 rounded-full md:hidden' src={assets.menu_icon} alt="" />
 
 
 

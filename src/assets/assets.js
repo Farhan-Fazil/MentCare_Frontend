@@ -1,13 +1,11 @@
-import appointment_img from './appointment_img.png'
-import header_img from './header_img.png'
+
 import group_profiles from './group_profiles.png'
 import profile_pic from './profile_pic.png'
-import contact_image from './contact_image.png'
-import about_image from './about_image.png'
+import doctorates from "./doctorates.jpg"
 import logo from './pigeon.png'
 import dropdown_icon from './dropdown_icon.svg'
-import menu_icon from './menu_icon.svg'
 import cross_icon from './cross_icon.png'
+import menu_icon from "./menu_icon.svg"
 import chats_icon from './chats_icon.svg'
 import verified_icon from './verified_icon.svg'
 import arrow_icon from './arrow_icon.svg'
@@ -17,7 +15,7 @@ import stripe_logo from './stripe_logo.png'
 import razorpay_logo from './razorpay_logo.png'
 import meditation from "./meditation.png"
 import monks from "./monks.jpg"
-import doctorates from "./doctorates.jpg"
+
 import spiritual from "./spiritual.jpg"
 import coach from "./coach.jpg"
 import therapists from "./therapists.jpg"
@@ -29,50 +27,22 @@ import laura_benson from "./laura_benson.jpg"
 import mark_reynolds from "./mark_reynolds.jpg"
 import kevin_moore from "./kevin_moore.jpg"
 import nina_roberts from "./nina_roberts.jpg"
+import teamwork from "./teamwork.png"
 
-
-
-
-
-
-import doc1 from './doc1.png'
-import doc2 from './doc2.png'
-import doc3 from './doc3.png'
-import doc4 from './doc4.png'
-import doc5 from './doc5.png'
-import doc6 from './doc6.png'
-import doc7 from './doc7.png'
-import doc8 from './doc8.png'
-import doc9 from './doc9.png'
-import doc10 from './doc10.png'
-import doc11 from './doc11.png'
-import doc12 from './doc12.png'
-import doc13 from './doc13.png'
-import doc14 from './doc14.png'
-import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
-import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
 import pigeon from "./pigeon.png"
 
 
 
 export const assets = {
-    appointment_img,
-    header_img,
     group_profiles,
+    doctorates,
     logo,
+    menu_icon,
     chats_icon,
     verified_icon,
     info_icon,
     profile_pic,
     arrow_icon,
-    contact_image,
-    about_image,
-    menu_icon,
     cross_icon,
     dropdown_icon,
     upload_icon,
@@ -81,10 +51,9 @@ export const assets = {
     meditation,
     monks,
     spiritual,
-    doctorates,
     coach,
     therapists,
-    pigeon
+    pigeon,teamwork
 }
 
 export const specialityData = [
