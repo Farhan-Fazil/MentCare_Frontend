@@ -55,7 +55,7 @@ const Navbar = () => {
         {/* ✅ Admin Panel Button - show only on home page  */}
         {location.pathname === '/' && (
           <button
-            onClick={() => window.open('https://appointy-doctor-appointment-web-app-admin.onrender.com', '_blank')}
+            onClick={() => window.open('https://mc-ad.vercel.app/', '_blank')}
             className='bg-primary text-white text-xs px-4 py-2 rounded-full hover:bg-white hover:text-black hidden md:block'
           >
             Admin Login
