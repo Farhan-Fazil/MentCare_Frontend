@@ -104,19 +104,19 @@ Tailwind CSS utilities and flexible layouts ensure **consistent UI/UX** on every
 ![Scroll](./screenshots/Mid.png)
 
 ### 👨‍⚕️ Professionals Listing
-![Professionals](./screenshots/Healers.png)
+![Professionals](./screenshots/Healers.PNG)
 
 ### Top Healers
-![Payment](./screenshots/TopHealers.png)
+![Payment](./screenshots/TopHealers.PNG)
 
 ### 🛠 Banner
-![Admin Dashboard](./screenshots/Banner.png)
+![Admin Dashboard](./screenshots/Banner.PNG)
 
 ### Testimonials
-![Testimonials](./screenshots/Test.png)
+![Testimonials](./screenshots/Test.PNG)
 
 ### About
-![About](./screenshots/About.png)
+![About](./screenshots/About.PNG)
 
 ### 📱 Mobile Responsive View
 ![Mobile View](./screenshots/mobile.png)
@@ -138,4 +138,5 @@ Tailwind CSS utilities and flexible layouts ensure **consistent UI/UX** on every
 ```bash
 git clone https://github.com/your-username/mentcare.git
 cd mentcare
+
 
