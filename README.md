@@ -98,7 +98,7 @@ Tailwind CSS utilities and flexible layouts ensure **consistent UI/UX** on every
 > *(Screenshots taken from the live application and placed in the `/screenshots` directory)*
 
 ### 🏠 Home Page
-![Home Page](./screenshots/Home.png)
+![Home Page](./screenshots/Home.PNG)
 
 ###  Scroll 
 ![Scroll](./screenshots/Mid.png)
@@ -138,3 +138,4 @@ Tailwind CSS utilities and flexible layouts ensure **consistent UI/UX** on every
 ```bash
 git clone https://github.com/your-username/mentcare.git
 cd mentcare
+
