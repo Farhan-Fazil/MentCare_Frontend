@@ -136,7 +136,7 @@ const MyAppointments = () => {
       <hr className='bg-[#ADADAD] h-[1px] w-20 mx-auto border-none mb-8' />
       <div className='sm:flex sm:flex-row sm:flex-wrap sm:gap-5 justify-center'>
         {appointments.map((item, index) => (
-          <div key={index} className='max-sm:p-2 grid grid-cols-[1fr_2fr] gap-5 sm:flex sm:gap-6 py-4 border-b bg-white rounded-lg sm:w-[40%]'>
+          <div key={index} className='max-sm:p-5 grid grid-cols-[1fr_2fr] gap-5 sm:flex sm:gap-6 py-4 border-b bg-white rounded-lg sm:w-[40%]'>
             <div className='p-2 rounded-full'>
               <img className='w-36 bg-[#EAEFFF] rounded-lg' src={item.docData.image} alt="" />
             </div>
