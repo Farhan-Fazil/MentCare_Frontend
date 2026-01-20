@@ -119,7 +119,7 @@ Tailwind CSS utilities and flexible layouts ensure **consistent UI/UX** on every
 ![About](./screenshots/About.PNG)
 
 ### 📱 Mobile Responsive View
-![Mobile View](./screenshots/mobile.png)
+![Mobile View](./screenshots/Mobile.PNG)
 
 ---
 
@@ -138,5 +138,6 @@ Tailwind CSS utilities and flexible layouts ensure **consistent UI/UX** on every
 ```bash
 git clone https://github.com/your-username/mentcare.git
 cd mentcare
+
 
 
